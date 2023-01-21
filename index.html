@@ -16,14 +16,14 @@
     <!-- Хедер -->
     <header>
 
-        <a href=""><img src="./imagis/Vector.png" alt="logo"></a>
+        <a href="./"><img src="./imagis/Vector.png" alt="logo"></a>
         <nav>
-            <ul class="list">
-                <li><a href=""></a>Home</li>
-                <li><a href=""></a>About</li>
-                <li><a href=""></a>Service</li>
-                <li><a href=""></a>Menu</li>
-                <li><a href=""></a>Contact</li>
+            <ul>
+                <li><a class="link" href="#">Home</a></li>
+                <li><a class="link" href="#About">About</a></li>
+                <li><a class="link" href="#Service">Service</a></li>
+                <li><a class="link" href="#Menu">Menu</a></li>
+                <li><a class="link" href="#">Contact</a></li>
             </ul>
         </nav>
         <button type="button">Order Now</button>
@@ -33,7 +33,7 @@
     <main>
         <!-- Hero -->
         <section class="hero">
-            <h1>Enjoy Your Favorite Food From Anywhere</h1>
+            <h1 id="About">Enjoy Your Favorite Food From Anywhere</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
                 tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
@@ -44,13 +44,13 @@
         <!-- Section Offerings -->
         <section class="offerings">
             <img src="./imagis/photo-offerings.png" alt="Green apple" width="396" height="502">
-            <h2>What`s Special About Our Offerings</h2>
+            <h2 id="Service">What`s Special About Our Offerings</h2>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
                 tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
 
-            <ul class="list">
+            <ul>
                 <li><img src="./imagis/icon-deliv.png" alt="Rocket" width="48" height="48">
                     <h3>Fasest Delivery</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
@@ -65,9 +65,9 @@
 
         <!-- Section Our Favorits -->
         <section>
-            <h2>Some of Our Favorites</h2>
+            <h2 id="Menu">Some of Our Favorites</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul class="list">
+            <ul>
                 <li><img src="./imagis/gamburger.png" alt="Gamburger" width="395" height="397"></li>
                 <li><img src="./imagis/pasta.png" alt="Pasta" width="395" height="397"></li>
                 <li><img src="./imagis/pizza.png" alt="Pizza" width="395" height="397"></li>
@@ -82,13 +82,47 @@
             <h2>What our Customers Say</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-            <ul class="list">
-                <li><img src="./imagis/response1.png" alt="Text of response" width="501" height="227"> </li>
+            <ul>
+                <li><img src="./imagis/response1.png" alt="Text of response" width="501" height="227"></li>
                 <li><img src="./imagis/response2.png" alt="Text of response" width="501" height="227"></li>
             </ul>
         </section>
+
+        <!-- Subscribe -->
+        <section>
+            <h2>Subscribe To Get Special Offers</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                tristique.</p>
+            <img src="./imagis/subscribe-form.png" alt="Form for email" width="394" height="42">
+            <button type="button">Subscribe</button>
+            <img src="./imagis/subscribe-banan.png" alt="Banan" width="608" height="266">
+        </section>
     </main>
     <footer>
+        <a href="./"><img src="./imagis/Vector.png" alt="logo"></a>
+        <nav>
+            <ul class="list">
+                <li><a class="link" href="#">Home</a></li>
+                <li><a class="link" href="#About">About</a></li>
+                <li><a class="link" href="#Service">Service</a></li>
+                <li><a class="link" href="#Menu">Menu</a></li>
+                <li><a class="link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h3>Subscribe</h3>
+            <img src="./imagis/subscribe-form.png" alt="Form for email" width="279" height="42">
+            <button type="button">Subscribe</button>
+            <p>By subscribing you agree to with our <a href="">Privacy Policy</a></p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of Service</a></li>
+                <li><a href="">Cookies Settings</a></li>
+            </ul>
+        </div>
+        <p>2022 FoodSta. All right reserved.</p>
 
     </footer>
 </body>
