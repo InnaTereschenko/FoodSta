@@ -1,7 +1,46 @@
+/* Зміні */
+:root {
+--main-font: Roboto, sans-serif;
+--bkg-black:#2C2C2C;
+--bkg-light: #FEFEFE;
+--bkg-main: #FFE550;
+--button: #BBF330;
+--dark-green: #7EB101;
+
+--main-txt: #2C2C2C;
+--txt: #3D3D3D;
+--txt-2: #969696;
+--txt-3: #4A4A4A;
+
+--shadow-frut: radial-gradient(50% 50% at 50% 50%, #2F583F 0%, rgba(105, 105, 105, 0) 100%);
+}
+
+
 /* Загальні */
-.link {
-    text-decoration: none;
+
+/* Скидання стилів */
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
 }
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
+ a {
+text-decoration: none;
+font-family: inherit;
+color: inherit;
+ }
+
+
+ .page {
+    background-color: var(--bkg-light);
+    font-family: var(--main-font);
+    font-size: 16px;
+    color: var(--main-txt);
+    line-height: 1.5;
+ }
+
+ 
