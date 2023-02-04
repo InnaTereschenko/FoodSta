@@ -185,11 +185,25 @@ margin-left: 16px;
 
 .offerings {
     margin-bottom: 100px;
-background-image: url(../imagis/backgroud-offerings.png);
+    background-image: url(../imagis/backgroud-offerings.png);
    background-repeat: no-repeat;
    background-position: 50% 50%;
    object-fit: contain;
    height: 824px;
+}
+
+.offerings-main {
+    display: flex;
+
+}
+.apple {
+    margin-left:16px;
+    padding-top: 177px;
+}
+
+.offerings-info {
+/* margin-left: 87px; */
+
 }
 
  /**
